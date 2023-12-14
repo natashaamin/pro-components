@@ -34,7 +34,6 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/arr
               >
                 <button
                   class="ant-btn ant-btn-primary"
-                  style="flex: 1;"
                   type="button"
                 >
                   <span>
@@ -43,7 +42,6 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/arr
                 </button>
                 <button
                   class="ant-btn ant-btn-default"
-                  style="flex: 1;"
                   type="button"
                 >
                   <span>
@@ -626,7 +624,7 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/bas
                         >
                           <div
                             class="ant-progress-bg"
-                            style="width: 40%; height: 6px;"
+                            style="width: 100%; height: 6px; clip-path: inset(0 60% 0 0 round 100px);"
                           />
                         </div>
                       </div>
@@ -836,7 +834,6 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/col
     </div>
     <div
       class="ant-descriptions ant-pro-descriptions"
-      emptytext="空"
     >
       <div
         class="ant-descriptions-header"
@@ -855,21 +852,18 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/col
           >
             <a
               rel="noopener noreferrer"
-              style="flex: 1;"
               target="_blank"
             >
               链路
             </a>
             <a
               rel="noopener noreferrer"
-              style="flex: 1;"
               target="_blank"
             >
               报警
             </a>
             <a
               rel="noopener noreferrer"
-              style="flex: 1;"
               target="_blank"
             >
               查看
@@ -1272,9 +1266,7 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/cus
                 class="ant-pro-field-option"
                 style="display: flex; gap: 16px; align-items: center;"
               >
-                <a
-                  style="flex: 1;"
-                >
+                <a>
                   刷新
                 </a>
               </div>
@@ -1463,21 +1455,18 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/dyn
                     >
                       <a
                         rel="noopener noreferrer"
-                        style="flex: 1;"
                         target="_blank"
                       >
                         链路
                       </a>
                       <a
                         rel="noopener noreferrer"
-                        style="flex: 1;"
                         target="_blank"
                       >
                         报警
                       </a>
                       <a
                         rel="noopener noreferrer"
-                        style="flex: 1;"
                         target="_blank"
                       >
                         查看
@@ -2434,21 +2423,18 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/edi
               >
                 <a
                   rel="noopener noreferrer"
-                  style="flex: 1;"
                   target="_blank"
                 >
                   链路
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  style="flex: 1;"
                   target="_blank"
                 >
                   报警
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  style="flex: 1;"
                   target="_blank"
                 >
                   查看
@@ -3499,7 +3485,6 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/req
               >
                 <button
                   class="ant-btn ant-btn-primary"
-                  style="flex: 1;"
                   type="button"
                 >
                   <span>
@@ -3508,7 +3493,6 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/req
                 </button>
                 <button
                   class="ant-btn ant-btn-default"
-                  style="flex: 1;"
                   type="button"
                 >
                   <span>
@@ -3642,21 +3626,18 @@ exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/use
           >
             <a
               rel="noopener noreferrer"
-              style="flex: 1;"
               target="_blank"
             >
               链路
             </a>
             <a
               rel="noopener noreferrer"
-              style="flex: 1;"
               target="_blank"
             >
               报警
             </a>
             <a
               rel="noopener noreferrer"
-              style="flex: 1;"
               target="_blank"
             >
               查看

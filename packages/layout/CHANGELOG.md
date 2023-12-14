@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.17.17](https://github.com/ant-design/pro-components/compare/@ant-design/pro-layout@7.17.16...@ant-design/pro-layout@7.17.17) (2023-12-12)
+
+### Bug Fixes
+
+- **layout:** pass SiderProps to avatar render function ([#7963](https://github.com/ant-design/pro-components/issues/7963)) ([627e7bf](https://github.com/ant-design/pro-components/commit/627e7bf67551a479a7473085aec716c910db54a0))
+
+## [7.17.16](https://github.com/ant-design/pro-components/compare/@ant-design/pro-layout@7.17.15...@ant-design/pro-layout@7.17.16) (2023-11-22)
+
+**Note:** Version bump only for package @ant-design/pro-layout
+
+## [7.17.15](https://github.com/ant-design/pro-components/compare/@ant-design/pro-layout@7.17.14...@ant-design/pro-layout@7.17.15) (2023-11-15)
+
+**Note:** Version bump only for package @ant-design/pro-layout
+
+## [7.17.14](https://github.com/ant-design/pro-components/compare/@ant-design/pro-layout@7.17.13...@ant-design/pro-layout@7.17.14) (2023-11-14)
+
+### Bug Fixes
+
+- **layout:** [antd: Drawer] `bodyStyle` is deprecated waring ([#7864](https://github.com/ant-design/pro-components/issues/7864)) ([912c4dd](https://github.com/ant-design/pro-components/commit/912c4ddfec94deda34a99d7c879d4d38b4f0080b))
+- **layout:** fix popupBg no work error ([ea20878](https://github.com/ant-design/pro-components/commit/ea20878c4c239ed9df27f42131a00b691261d73d))
+- **layout:** fix ProLayout did not match error ([cb330f9](https://github.com/ant-design/pro-components/commit/cb330f98d8708dc1320d00ef1190643ecfa25139))
+
 ## [7.17.13](https://github.com/ant-design/pro-components/compare/@ant-design/pro-layout@7.17.12...@ant-design/pro-layout@7.17.13) (2023-11-01)
 
 ### Bug Fixes

@@ -267,6 +267,7 @@ exports[`field demos > 📸 renders ./packages/field/src/demos/base.tsx correctl
                   >
                     <div
                       class="ant-color-picker-trigger ant-pro-field-color-picker"
+                      mode="read"
                     >
                       <div
                         class="ant-color-picker-color-block"
@@ -346,7 +347,7 @@ exports[`field demos > 📸 renders ./packages/field/src/demos/base.tsx correctl
                     class="ant-descriptions-item-content"
                   >
                     <span>
-                      23天555小时33分钟20秒
+                      23天3小时33分钟20秒
                     </span>
                   </span>
                 </div>
@@ -999,7 +1000,7 @@ exports[`field demos > 📸 renders ./packages/field/src/demos/base.tsx correctl
                         >
                           <div
                             class="ant-progress-bg"
-                            style="width: 40%; height: 6px;"
+                            style="width: 100%; height: 6px; clip-path: inset(0 60% 0 0 round 100px);"
                           />
                         </div>
                       </div>
@@ -1691,6 +1692,7 @@ exports[`field demos > 📸 renders ./packages/field/src/demos/base_test.tsx cor
                     </div>
                     <div
                       class="ant-color-picker-trigger ant-pro-field-color-picker"
+                      mode="read"
                     >
                       <div
                         class="ant-color-picker-color-block"
@@ -1822,6 +1824,9 @@ exports[`field demos > 📸 renders ./packages/field/src/demos/base_test.tsx cor
                         />
                       </div>
                     </div>
+                    <span>
+                      💰2,221,212.22
+                    </span>
                   </span>
                 </div>
               </td>
@@ -1905,7 +1910,8 @@ exports[`field demos > 📸 renders ./packages/field/src/demos/base_test.tsx cor
                         class="ant-input-number-input-wrap"
                       >
                         <input
-                          aria-valuemin="0"
+                          aria-valuemax="10000"
+                          aria-valuemin="1"
                           autocomplete="off"
                           class="ant-input-number-input"
                           placeholder="请输入"

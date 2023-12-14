@@ -741,7 +741,9 @@ const BaseProLayout: React.FC<ProLayoutProps> = (props) => {
     }
     return null;
   }, [bgLayoutImgList]);
+
   const { token } = useContext(ProProvider);
+
   return wrapSSR(
     <RouteContext.Provider
       value={{
@@ -785,6 +787,10 @@ const BaseProLayout: React.FC<ProLayoutProps> = (props) => {
               // @ts-ignore
               theme={{
                 hashed: isNeedOpenHash(),
+                token: {
+                  controlHeightLG:
+                    token.layout?.sider?.menuHeight || token?.controlHeightLG,
+                },
                 components: {
                   Menu: coverToNewToken({
                     colorItemBg:
@@ -792,8 +798,7 @@ const BaseProLayout: React.FC<ProLayoutProps> = (props) => {
                     colorSubItemBg:
                       token.layout?.sider?.colorMenuBackground || 'transparent',
                     radiusItem: token.borderRadius,
-                    controlHeightLG:
-                      token.layout?.sider?.menuHeight || token?.controlHeightLG,
+
                     colorItemBgSelected:
                       token.layout?.sider?.colorBgMenuItemSelected ||
                       token?.colorBgTextHover,
@@ -818,9 +823,11 @@ const BaseProLayout: React.FC<ProLayoutProps> = (props) => {
                     colorItemTextSelected:
                       token.layout?.sider?.colorTextMenuSelected ||
                       'rgba(0, 0, 0, 1)',
-                    colorBgElevated:
-                      token.layout?.sider?.colorBgMenuItemCollapsedElevated ||
-                      '#fff',
+                    popupBg: token?.colorBgElevated,
+                    subMenuItemBg: token?.colorBgElevated,
+                    darkSubMenuItemBg: 'transparent',
+                    // @ts-expect-error
+                    darkPopupBg: token?.colorBgElevated,
                   }),
                 },
               }}

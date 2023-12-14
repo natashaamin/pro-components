@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.14.3](https://github.com/ant-design/pro-components/compare/@ant-design/pro-field@2.14.2...@ant-design/pro-field@2.14.3) (2023-12-12)
+
+### Bug Fixes
+
+- **Description:** slove valueType as Second calc problem ([#7929](https://github.com/ant-design/pro-components/issues/7929)) ([81249b3](https://github.com/ant-design/pro-components/commit/81249b3650d74684c02436d5d2ed378d5f29cb75))
+- **form:** fix cjs require statement ([#7952](https://github.com/ant-design/pro-components/issues/7952)) ([e16d2ec](https://github.com/ant-design/pro-components/commit/e16d2ec316c28f75fe82f576045cae48467408fa))
+
+## [2.14.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-field@2.14.1...@ant-design/pro-field@2.14.2) (2023-11-22)
+
+**Note:** Version bump only for package @ant-design/pro-field
+
+## [2.14.1](https://github.com/ant-design/pro-components/compare/@ant-design/pro-field@2.14.0...@ant-design/pro-field@2.14.1) (2023-11-15)
+
+**Note:** Version bump only for package @ant-design/pro-field
+
+# [2.14.0](https://github.com/ant-design/pro-components/compare/@ant-design/pro-field@2.13.5...@ant-design/pro-field@2.14.0) (2023-11-14)
+
+### Bug Fixes
+
+- **descriptions:** fix ProTable 和 ProDescriptions render 行为不一样的问题 ([227d302](https://github.com/ant-design/pro-components/commit/227d3023934efceb2f86184767ef7afe37a73c3b))
+- **field:** remove useDeepCompareMemo which causing renderFormItem not updated ([#7887](https://github.com/ant-design/pro-components/issues/7887)) ([d507222](https://github.com/ant-design/pro-components/commit/d507222c083a8be976f8d4dfc3fec9380f0f4316))
+- **form:** fix ProFormMoney customSymbol no work error ([d0f30b8](https://github.com/ant-design/pro-components/commit/d0f30b8b9b7354798ac5b9271b88dad772f56f36))
+- **form:** 修复 FieldOptions 中子元素换行问题 ([#7856](https://github.com/ant-design/pro-components/issues/7856)) ([6a6f1c4](https://github.com/ant-design/pro-components/commit/6a6f1c48bee9d5aaf12842b3f225766192b44ccc))
+
+### Features
+
+- **utils:** FieldLabel 的 VALUE_MAX_LENGTH 可以通过参数传入 ([#7845](https://github.com/ant-design/pro-components/issues/7845)) ([#7846](https://github.com/ant-design/pro-components/issues/7846)) ([8cba14f](https://github.com/ant-design/pro-components/commit/8cba14f24e4549d428432f0ffdf194f8474eddfb))
+
 ## [2.13.5](https://github.com/ant-design/pro-components/compare/@ant-design/pro-field@2.13.4...@ant-design/pro-field@2.13.5) (2023-10-26)
 
 **Note:** Version bump only for package @ant-design/pro-field

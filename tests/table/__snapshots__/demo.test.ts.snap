@@ -15373,7 +15373,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/batchOption.tsx c
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -15554,7 +15554,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/batchOption.tsx c
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -15734,7 +15734,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/batchOption.tsx c
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -15914,7 +15914,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/batchOption.tsx c
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -16094,7 +16094,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/batchOption.tsx c
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -36943,7 +36943,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/pollinga.tsx corr
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -37013,7 +37013,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/pollinga.tsx corr
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -37970,7 +37970,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/renderTable.tsx c
                                       >
                                         <div
                                           class="ant-progress-bg"
-                                          style="width: 86%; height: 6px;"
+                                          style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                         />
                                       </div>
                                     </div>
@@ -38019,7 +38019,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/renderTable.tsx c
                                       >
                                         <div
                                           class="ant-progress-bg"
-                                          style="width: 86%; height: 6px;"
+                                          style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                         />
                                       </div>
                                     </div>
@@ -40490,7 +40490,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/single.tsx correc
                 class="ant-spin-container ant-spin-blur"
               >
                 <div
-                  class="ant-table ant-table-middle ant-table-empty"
+                  class="ant-table ant-table-middle ant-table-empty ant-table-has-fix-right"
                 >
                   <div
                     class="ant-table-container"
@@ -40663,8 +40663,9 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/single.tsx correc
                               </div>
                             </th>
                             <th
-                              class="ant-table-cell"
+                              class="ant-table-cell ant-table-cell-fix-right ant-table-cell-fix-right-first"
                               scope="col"
+                              style="position: sticky; right: 0px;"
                             >
                               操作
                             </th>
@@ -45697,7 +45698,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/theme.tsx correct
                   class="ant-spin-container ant-spin-blur"
                 >
                   <div
-                    class="ant-table ant-table-middle ant-table-empty"
+                    class="ant-table ant-table-middle ant-table-empty ant-table-has-fix-right"
                   >
                     <div
                       class="ant-table-container"
@@ -45870,8 +45871,9 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/theme.tsx correct
                                 </div>
                               </th>
                               <th
-                                class="ant-table-cell"
+                                class="ant-table-cell ant-table-cell-fix-right ant-table-cell-fix-right-first"
                                 scope="col"
+                                style="position: sticky; right: 0px;"
                               >
                                 操作
                               </th>
@@ -50724,7 +50726,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/valueTypeNumber.t
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
@@ -50798,7 +50800,7 @@ exports[`table demos > 📸 renders ./packages/table/src/demos/valueTypeNumber.t
                                   >
                                     <div
                                       class="ant-progress-bg"
-                                      style="width: 86%; height: 6px;"
+                                      style="width: 100%; height: 6px; clip-path: inset(0 14% 0 0 round 100px);"
                                     />
                                   </div>
                                 </div>
